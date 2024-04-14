@@ -64,7 +64,7 @@ setuptools.setup(
         'seqeval==1.2.2',
         # for kf:
         'kfserving>=0.5.0',
-        'ray==1.6.0',
+        'ray==1.13.0',
         # for NED:
         'bootleg==1.0.5',
         # for calibration:
