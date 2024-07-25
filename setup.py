@@ -47,11 +47,11 @@ setuptools.setup(
     url="https://github.com/stanford-oval/genienlp",
     install_requires=[
         'numpy>=1.14.5',
-        'torch>=1.9.0,<1.14.0',
-        'transformers==4.22.2',
+        'torch>=1.9.0,<2.5.0',
+        'transformers==4.38.0',
         'datasets==2.11.0',
         'pathos==0.2.8',
-        'protobuf==3.20.1',
+        'protobuf==3.20.2',
         # for sts:
         'sentence-transformers==2.2.2',
         # for alignment:
@@ -64,7 +64,7 @@ setuptools.setup(
         'seqeval==1.2.2',
         # for kf:
         'kfserving>=0.5.0',
-        'ray==1.6.0',
+        'ray==2.7.0',
         # for NED:
         'bootleg==1.0.5',
         # for calibration:
